@@ -16,22 +16,31 @@
     margin: 0;
     border-bottom: 0.1rem solid #000;
 }
-.enlaces{
-    list-style: none;
-    display: flex;
-    
-}
-.enlaces li {
-    padding: 2rem;
-}
 
 .enlacesCarrito{
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    margin: 2rem;
+    gap: 2rem;
 }
 .logo{
     height: 3rem;
-    margin-right: 2rem;
+    margin: 2rem;
 }
+
+.tituloPrincipal{
+    margin-top: 2.7rem;
+}
+
+.claseActiva {
+    color: orangered;
+}
+.claseInactiva{
+    color:darkblue;
+}
+
+.enlaceInicioContacto{
+    color: darkblue;
+}
+
 

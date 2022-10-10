@@ -1,0 +1,35 @@
+.tarjeta-producto{
+    /* width: 50px; */
+    /* height: auto; */
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta-producto p{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #243746;
+    margin-bottom: 0.5rem;
+}
+.tarjeta-producto h4{
+    margin: 0;
+    font-size: 1.4rem;
+    color: #243746;
+    margin-bottom: 1rem;
+}
+.tarjeta-producto img{
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+.boton-ver{
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    background-color: #243746;
+    color: white;
+    
+}
