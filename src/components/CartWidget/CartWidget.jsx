@@ -18,7 +18,7 @@ export const CartWidget = () => {
           color: "black",
         }}
       >
-        {getTotalProducts()}{" "}
+        {getTotalProducts() || ""}
       </span>
     </div>
   );

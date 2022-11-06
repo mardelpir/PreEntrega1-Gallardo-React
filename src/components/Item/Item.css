@@ -1,35 +1,81 @@
-.tarjeta-producto{
-    /* width: 50px; */
-    /* height: auto; */
-    margin: 1rem;
-    padding: 1rem;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.tarjeta-producto {
+  /* width: 50px; */
+  /* height: auto; */
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.tarjeta-producto p{
-    margin: 0;
-    font-size: 1.2rem;
-    color: #243746;
-    margin-bottom: 0.5rem;
+.tarjeta-producto p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #243746;
+  margin-bottom: 0.5rem;
 }
-.tarjeta-producto h4{
-    margin: 0;
-    font-size: 1.4rem;
-    color: #243746;
-    margin-bottom: 1rem;
+.tarjeta-producto h4 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #243746;
+  margin-bottom: 1rem;
 }
-.tarjeta-producto img{
-    max-width: 100%;
-    margin-bottom: 1.5rem;
+.tarjeta-producto img {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
 }
-.boton-ver{
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    border-radius: 5px;
-    background-color: #243746;
-    color: white;
-    
+.boton-ver {
+  background-color: #3dd1e7;
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: 0.75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.boton-ver:focus {
+  outline: 0;
+}
+
+.boton-ver:after {
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.boton-ver:hover:after {
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .boton-ver {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+.linkBotonDetalle {
+  text-decoration: none;
 }

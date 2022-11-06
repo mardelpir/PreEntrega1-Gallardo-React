@@ -1,10 +1,12 @@
-.estilos-listado{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
-    
-    color: white;
-    width: 100%;
-    height: auto;
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+.estilos-listado {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  width: 100%;
+  height: auto;
 }

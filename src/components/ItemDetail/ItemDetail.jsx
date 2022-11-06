@@ -6,7 +6,6 @@ import "./ItemDetail.css";
 export const ItemDetail = ({ item }) => {
   const { addProduct } = useContext(CartContext);
   const agregarProducto = (quantity) => {
-    console.log(quantity);
     addProduct(item, quantity);
   };
 
