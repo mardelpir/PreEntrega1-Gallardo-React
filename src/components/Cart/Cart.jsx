@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import "./Cart.css";
 import { db } from "../../utils/firebase";
 import { collection, addDoc } from "firebase/firestore";
-import { cloneElement } from "react";
 import { useState } from "react";
 
 export const Cart = () => {
